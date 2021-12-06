@@ -1,8 +1,11 @@
 package Model;
 
 public class Bruger {
-    String name;
-    public Bruger(String name){
-        this.name = name;
+    String email;
+    String password;
+
+    public Bruger(String email, String password){
+        this.email = email;
+        this.password = password;
     }
 }
